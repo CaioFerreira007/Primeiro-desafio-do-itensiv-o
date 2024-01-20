@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+#page {
+  max-width: 43rem;
+  font-family: Mulish;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+#page span {
+  color: #312d64;
+  font-weight: 600;
+}
+#page h1,
+h2 {
+  color: #b52184;
+  font-weight: 900;
+}
+#page h1,
+h3 {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+.astronauta img {
+  width: 100%;
+}
+.topico {
+  padding-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  padding: 3.5rem 9.3rem;
+}
+.arrow button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+main {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  padding: 5.2rem 2.5rem;
+  border-radius: 2rem;
+}
+.wrapper {
+  padding: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.banner {
+  max-width: 32.1rem;
+  box-shadow: 0px 3.311px 13.243px 0px rgba(0, 0, 0, 0.25);
+
+  padding: 2.6rem;
+  border-radius: 2rem;
+  background: white;
+}
+.banner h2 {
+  font-size: 2.9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.banner span {
+  font-size: 1.6rem;
+}
+.desc {
+  max-width: 26.5rem;
+}
+
+.input-wrapper {
+  padding-top: 7.8rem;
+}
+.input-wrapper h3 {
+  color: #b52184;
+  padding-bottom: 4.3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+form input,
+textarea {
+  border: none;
+  width: 100%;
+}
+fieldset {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 1.6rem;
+  border-radius: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.save {
+  padding: 1.6rem;
+  border-radius: 16px;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 2.4rem;
+}
+.save:hover {
+  font-weight: bold;
+}
+.stars {
+  display: none;
+}
+
+footer {
+  margin-top: 6.5rem;
+  width: 100%;
+  padding: 1.6rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+}
